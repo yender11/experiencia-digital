@@ -1,0 +1,132 @@
+{
+  "title": "Los Recuerdos",
+  "description": "Momentos capturados para siempre",
+  "categories": [
+    { "id": "amigos", "label": "Amigos" },
+    { "id": "companeros", "label": "Compañeros" },
+    { "id": "profesores", "label": "Profesores" },
+    { "id": "paseos", "label": "Paseos" },
+    { "id": "actividades", "label": "Actividades" },
+    { "id": "celebraciones", "label": "Celebraciones" },
+    { "id": "divertidos", "label": "Momentos divertidos" },
+    { "id": "importantes", "label": "Momentos importantes" }
+  ],
+  "photos": [
+    {
+      "id": "foto-001",
+      "src": "assets/images/gallery/foto1.jpg",
+      "alt": "[DESCRIPCIÓN - editar]",
+      "category": "amigos",
+      "caption": "[TEXTO - editar]",
+      "aspectRatio": "4:3"
+    },
+    {
+      "id": "foto-002",
+      "src": "assets/images/gallery/foto2.jpg",
+      "alt": "[DESCRIPCIÓN - editar]",
+      "category": "companeros",
+      "caption": "[TEXTO - editar]",
+      "aspectRatio": "3:4"
+    },
+    {
+      "id": "foto-003",
+      "src": "assets/images/gallery/foto3.jpg",
+      "alt": "[DESCRIPCIÓN - editar]",
+      "category": "actividades",
+      "caption": "[TEXTO - editar]",
+      "aspectRatio": "16:9"
+    },
+    {
+      "id": "foto-004",
+      "src": "assets/images/gallery/foto4.jpg",
+      "alt": "[DESCRIPCIÓN - editar]",
+      "category": "celebraciones",
+      "caption": "[TEXTO - editar]",
+      "aspectRatio": "1:1"
+    },
+    {
+      "id": "foto-005",
+      "src": "assets/images/gallery/foto5.jpg",
+      "alt": "[DESCRIPCIÓN - editar]",
+      "category": "paseos",
+      "caption": "[TEXTO - editar]",
+      "aspectRatio": "4:3"
+    },
+    {
+      "id": "foto-006",
+      "src": "assets/images/gallery/foto6.jpg",
+      "alt": "[DESCRIPCIÓN - editar]",
+      "category": "profesores",
+      "caption": "[TEXTO - editar]",
+      "aspectRatio": "3:4"
+    },
+    {
+      "id": "foto-007",
+      "src": "assets/images/gallery/foto7.jpg",
+      "alt": "[DESCRIPCIÓN - editar]",
+      "category": "divertidos",
+      "caption": "[TEXTO - editar]",
+      "aspectRatio": "16:9"
+    },
+    {
+      "id": "foto-008",
+      "src": "assets/images/gallery/foto8.jpg",
+      "alt": "[DESCRIPCIÓN - editar]",
+      "category": "importantes",
+      "caption": "[TEXTO - editar]",
+      "aspectRatio": "4:3"
+    },
+    {
+      "id": "foto-009",
+      "src": "assets/images/gallery/foto9.jpg",
+      "alt": "[DESCRIPCIÓN - editar]",
+      "category": "amigos",
+      "caption": "[TEXTO - editar]",
+      "aspectRatio": "3:4"
+    },
+    {
+      "id": "foto-010",
+      "src": "assets/images/gallery/foto10.jpg",
+      "alt": "[DESCRIPCIÓN - editar]",
+      "category": "companeros",
+      "caption": "[TEXTO - editar]",
+      "aspectRatio": "1:1"
+    },
+    {
+      "id": "foto-011",
+      "src": "assets/images/gallery/foto11.jpg",
+      "alt": "[DESCRIPCIÓN - editar]",
+      "category": "actividades",
+      "caption": "[TEXTO - editar]",
+      "aspectRatio": "4:3"
+    },
+    {
+      "id": "foto-012",
+      "src": "assets/images/gallery/foto12.jpg",
+      "alt": "[DESCRIPCIÓN - editar]",
+      "category": "celebraciones",
+      "caption": "[TEXTO - editar]",
+      "aspectRatio": "16:9"
+    }
+  ],
+  "moments": [
+    {
+      "id": "momento-001",
+      "title": "[TÍTULO - editar]",
+      "image": "assets/images/moments/momento1.jpg",
+      "description": "[DESCRIPCIÓN - editar]"
+    },
+    {
+      "id": "momento-002",
+      "title": "[TÍTULO - editar]",
+      "image": "assets/images/moments/momento2.jpg",
+      "description": "[DESCRIPCIÓN - editar]"
+    },
+    {
+      "id": "momento-003",
+      "title": "[TÍTULO - editar]",
+      "image": "assets/images/moments/momento3.jpg",
+      "description": "[DESCRIPCIÓN - editar]"
+    }
+  ]
+}

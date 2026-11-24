@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="THE JOURNEY — Una experiencia digital sobre años de colegio, amistades y momentos inolvidables.">
+  <meta name="author" content="Papá">
+  <meta name="theme-color" content="#080B12">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="THE JOURNEY — Una historia de crecimiento">
+  <meta property="og:description" content="Una experiencia digital sobre años de colegio, amistades y momentos inolvidables.">
+  <meta property="og:image" content="assets/images/hero/portada.jpg">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="THE JOURNEY — Una historia de crecimiento">
+  <meta name="twitter:description" content="Una experiencia digital sobre años de colegio, amistades y momentos inolvidables.">
+  <meta name="twitter:image" content="assets/images/hero/portada.jpg">
+  
+  <!-- Preconnect a Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+  
+  <!-- Estilos -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  
+  <title>THE JOURNEY — Una historia de crecimiento</title>
+</head>
+<body>
+  
+  <!-- ============================================
+       SECCIÓN 01 — HERO / EL COMIENZO
+       ============================================ -->
+  <header class="hero" role="banner">
+    <!-- REEMPLAZAR: Fotografía de portada (hero/portada.jpg) -->
+    <img 
+      class="hero-bg" 
+      src="assets/images/hero/portada.jpg" 
+      alt="Photograph of the journey"
+      onerror="this.src='assets/images/placeholder.svg'; this.classList.add('placeholder-active');"
+    >
+    <div class="hero-overlay"></div>
+    
+    <div class="hero-content">
+      <h1 class="hero-title">No fue solamente ir al colegio...</h1>
+      <h2 class="hero-highlight">Fue crecer.</h2>
+      <p class="hero-subtitle">Una historia de años, amistades, aprendizajes y momentos que quedarán para siempre</p>
+      <p class="hero-signature">Un regalo de papá</p>
+    </div>
+    
+    <div class="hero-scroll">
+      <div class="hero-scroll-icon"></div>
+      <span class="hero-scroll-text">Desliza</span>
+    </div>
+  </header>
+  
+  <main role="main">
+    
+    <!-- ============================================
+         SECCIÓN 02 — TIMELINE / EL VIAJE
+         ============================================ -->
+    <section class="section timeline" aria-labelledby="timeline-title">
+      <div class="timeline-header">
+        <p class="section-subtitle">Recorrido</p>
+        <h2 class="section-title" id="timeline-title">El Viaje</h2>
+        <p class="section-description">Cada etapa fue un capítulo único en tu historia</p>
+      </div>
+      
+      <div class="timeline-container">
+        <div class="timeline-line"></div>
+        <!-- Los hitos se renderizan dinámicamente desde timeline.json -->
+      </div>
+    </section>
+    
+    <!-- ============================================
+         SECCIÓN 03 — GALERÍA / LOS RECUERDOS
+         ============================================ -->
+    <section class="section gallery" aria-labelledby="gallery-title">
+      <div class="gallery-header">
+        <p class="section-subtitle">Memorias</p>
+        <h2 class="section-title" id="gallery-title">Los Recuerdos</h2>
+        <p class="section-description">Momentos capturados para siempre</p>
+      </div>
+      
+      <div class="gallery-grid">
+        <!-- Las fotos se renderizan dinámicamente desde gallery.json -->
+      </div>
+    </section>
+    
+    <!-- ============================================
+         SECCIÓN 03.5 — CARRUSEL / RECUERDOS EN MOVIMIENTO
+         ============================================ -->
+    <section class="carousel-section" aria-labelledby="carousel-title">
+      <div class="carousel-header">
+        <p class="section-subtitle">Galería dinámica</p>
+        <h2 class="section-title" id="carousel-title">Recuerdos en Movimiento</h2>
+        <p class="section-description">Desliza para revivir estos momentos</p>
+      </div>
+      
+      <div class="carousel-container">
+        <div class="carousel-counter" id="carousel-counter">1 / 8</div>
+        
+        <div class="carousel-track-container">
+          <div class="carousel-track" id="carousel-track">
+            <!-- Slide 1 -->
+            <div class="carousel-slide">
+              <!-- REEMPLAZAR: carousel/foto1.jpg -->
+              <img 
+                class="carousel-image" 
+                src="assets/images/gallery/foto1.jpg" 
+                alt="Recuerdo 1"
+                onerror="this.src='assets/images/placeholder.svg';"
+              >
+              <div class="carousel-overlay">
+                <p class="carousel-year">2017</p>
+                <p class="carousel-caption">[TEXTO - editar] Primeros días de colegio</p>
+              </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="carousel-slide">
+              <img 
+                class="carousel-image" 
+                src="assets/images/gallery/foto2.jpg" 
+                alt="Recuerdo 2"
+                onerror="this.src='assets/images/placeholder.svg';"
+              >
+              <div class="carousel-overlay">
+                <p class="carousel-year">2018</p>
+                <p class="carousel-caption">[TEXTO - editar] Primeros amigos</p>
+              </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="carousel-slide">
+              <img 
+                class="carousel-image" 
+                src="assets/images/gallery/foto3.jpg" 
+                alt="Recuerdo 3"
+                onerror="this.src='assets/images/placeholder.svg';"
+              >
+              <div class="carousel-overlay">
+                <p class="carousel-year">2019</p>
+                <p class="carousel-caption">[TEXTO - editar] Paseo escolar</p>
+              </div>
+            </div>
+            
+            <!-- Slide 4 -->
+            <div class="carousel-slide">
+              <img 
+                class="carousel-image" 
+                src="assets/images/gallery/foto4.jpg" 
+                alt="Recuerdo 4"
+                onerror="this.src='assets/images/placeholder.svg';"
+              >
+              <div class="carousel-overlay">
+                <p class="carousel-year">2020</p>
+                <p class="carousel-caption">[TEXTO - editar] Celebración especial</p>
+              </div>
+            </div>
+            
+            <!-- Slide 5 -->
+            <div class="carousel-slide">
+              <img 
+                class="carousel-image" 
+                src="assets/images/gallery/foto5.jpg" 
+                alt="Recuerdo 5"
+                onerror="this.src='assets/images/placeholder.svg';"
+              >
+              <div class="carousel-overlay">
+                <p class="carousel-year">2021</p>
+                <p class="carousel-caption">[TEXTO - editar] Con los profesores</p>
+              </div>
+            </div>
+            
+            <!-- Slide 6 -->
+            <div class="carousel-slide">
+              <img 
+                class="carousel-image" 
+                src="assets/images/gallery/foto6.jpg" 
+                alt="Recuerdo 6"
+                onerror="this.src='assets/images/placeholder.svg';"
+              >
+              <div class="carousel-overlay">
+                <p class="carousel-year">2022</p>
+                <p class="carousel-caption">[TEXTO - editar] Momento divertido</p>
+              </div>
+            </div>
+            
+            <!-- Slide 7 -->
+            <div class="carousel-slide">
+              <img 
+                class="carousel-image" 
+                src="assets/images/gallery/foto7.jpg" 
+                alt="Recuerdo 7"
+                onerror="this.src='assets/images/placeholder.svg';"
+              >
+              <div class="carousel-overlay">
+                <p class="carousel-year">2023</p>
+                <p class="carousel-caption">[TEXTO - editar] Último año</p>
+              </div>
+            </div>
+            
+            <!-- Slide 8 -->
+            <div class="carousel-slide">
+              <img 
+                class="carousel-image" 
+                src="assets/images/gallery/foto8.jpg" 
+                alt="Recuerdo 8"
+                onerror="this.src='assets/images/placeholder.svg';"
+              >
+              <div class="carousel-overlay">
+                <p class="carousel-year">2024</p>
+                <p class="carousel-caption">[TEXTO - editar] Graduación</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-progress" id="carousel-progress"></div>
+        
+        <button class="carousel-nav carousel-prev" id="carousel-prev" aria-label="Previous slide">‹</button>
+        <button class="carousel-nav carousel-next" id="carousel-next" aria-label="Next slide">›</button>
+        
+        <div class="carousel-indicators" id="carousel-indicators">
+          <button class="carousel-indicator active" aria-label="Go to slide 1"></button>
+          <button class="carousel-indicator" aria-label="Go to slide 2"></button>
+          <button class="carousel-indicator" aria-label="Go to slide 3"></button>
+          <button class="carousel-indicator" aria-label="Go to slide 4"></button>
+          <button class="carousel-indicator" aria-label="Go to slide 5"></button>
+          <button class="carousel-indicator" aria-label="Go to slide 6"></button>
+          <button class="carousel-indicator" aria-label="Go to slide 7"></button>
+          <button class="carousel-indicator" aria-label="Go to slide 8"></button>
+        </div>
+      </div>
+    </section>
+    
+    <!-- ============================================
+         SECCIÓN 04 — MOMENTOS ESPECIALES
+         ============================================ -->
+    <section class="section moments" aria-labelledby="moments-title">
+      <div class="moments-header">
+        <p class="section-subtitle">Destacados</p>
+        <h2 class="section-title" id="moments-title">Momentos Especiales</h2>
+        <p class="section-description">Instantes que marcaron tu camino</p>
+      </div>
+      
+      <div class="moments-grid">
+        <!-- Los momentos se renderizan dinámicamente desde gallery.json -->
+      </div>
+    </section>
+    
+    <!-- ============================================
+         SECCIÓN 05 — PRESENTE / LO LOGRASTE
+         ============================================ -->
+    <section class="present" aria-labelledby="present-title">
+      <!-- REEMPLAZAR: Fotografía de graduación (present/graduacion.jpg) -->
+      <img 
+        class="present-bg" 
+        src="assets/images/present/graduacion.jpg" 
+        alt="Graduation photograph"
+        onerror="this.src='assets/images/placeholder.svg'; this.classList.add('placeholder-active');"
+      >
+      <div class="present-overlay"></div>
+      
+      <div class="present-content">
+        <h2 class="present-title" id="present-title">Lo lograste.</h2>
+        <p class="present-description">Ocho años de aprendizajes, desafíos, amistades y experiencias que te ayudaron a convertirte en quien eres hoy.</p>
+      </div>
+    </section>
+    
+    <!-- ============================================
+         SECCIÓN 06 — CARTA DE PAPÁ
+         ============================================ -->
+    <section class="section letter" aria-labelledby="letter-title">
+      <div class="letter-container">
+        <!-- REEMPLAZAR: Fotografía de papá e hijo (letter/papa-hijo.jpg) -->
+        <div class="letter-image-container">
+          <img 
+            class="letter-image" 
+            src="assets/images/letter/papa-hijo.jpg" 
+            alt="Papá e hijo"
+            onerror="this.src='assets/images/placeholder.svg';"
+          >
+        </div>
+        
+        <h2 class="letter-title" id="letter-title">Hay algo que quiero decirte...</h2>
+        <div class="letter-divider"></div>
+        
+        <!-- El contenido de la carta se carga desde letter.json -->
+        <div class="letter-content" id="letter-content">
+          [TEXTO DE EJEMPLO - REEMPLAZAR CON TU CARTA REAL]
+          
+          Querido hijo,
+          
+          Hoy que llegas al final de esta etapa, quiero que sepas lo orgulloso que estoy de ti. No solo por los logros académicos, sino por la persona en la que te estás convirtiendo.
+          
+          Recuerdo cuando eras pequeño y te llevaba al colegio por primera vez. Tu mano en la mía, esa mezcla de emoción y nervios en tus ojos. Hoy miro atrás y veo cuánto has crecido, cuánto has aprendido, cuánto has vivido.
+          
+          Estos ocho años no fueron solo sobre ir al colegio. Fueron sobre descubrir quién eres, sobre hacer amigos que quizás duren toda la vida, sobre aprender que los errores también enseñan, sobre entender que cada día es una oportunidad nueva.
+          
+          Quiero que sepas que siempre voy a estar aquí para ti. En los momentos buenos y en los no tan buenos. Que puedes contar conmigo para lo que necesites. Que mi amor por ti no tiene condiciones ni límites.
+          
+          El mundo que viene es grande y lleno de posibilidades. Sé que tienes todo lo necesario para enfrentar lo que sea. Confío en ti, creo en ti, y siempre voy a creer en ti.
+          
+          Esto es solo el comienzo de tu historia. Y no puedo esperar para ver todo lo que viene.
+          
+          Con todo mi amor,
+          
+          Papá
+        </div>
+        
+        <p class="letter-signature">Papá</p>
+      </div>
+    </section>
+    
+    <!-- ============================================
+         SECCIÓN 07 — CIERRE / EL FUTURO
+         ============================================ -->
+    <section class="closing" aria-labelledby="closing-title">
+      <!-- REEMPLAZAR: Fotografía de cierre (closing/futuro.jpg) -->
+      <img 
+        class="closing-bg" 
+        src="assets/images/closing/futuro.jpg" 
+        alt="Future photograph"
+        onerror="this.src='assets/images/placeholder.svg'; this.classList.add('placeholder-active');"
+      >
+      
+      <div class="closing-content">
+        <h2 class="closing-title" id="closing-title">Hoy termina una etapa, pero tu historia apenas comienza</h2>
+        <p class="closing-signature">— Papá</p>
+      </div>
+    </section>
+    
+    <!-- ============================================
+         SECCIÓN 08 — REGALO / GTA 6
+         ============================================ -->
+    <section class="section gift" aria-labelledby="gift-title">
+      <div class="gift-container">
+        <div class="gift-icon">🎁</div>
+        <h2 class="gift-title" id="gift-title">Un último regalo...</h2>
+        <p class="gift-subtitle">Has llegado hasta aquí. Ahora demuestra que estás listo para lo que viene.</p>
+        
+        <!-- Progreso -->
+        <div class="riddle-progress" id="riddle-progress">
+          <div class="riddle-progress-dot current"></div>
+          <div class="riddle-progress-dot"></div>
+          <div class="riddle-progress-dot"></div>
+        </div>
+        
+        <!-- Contenedor de acertijos -->
+        <div class="riddle-container" id="riddle-container">
+          <p class="riddle-number" id="riddle-number">Acertijo 1 de 3</p>
+          <p class="riddle-text" id="riddle-text">Cargando acertijo...</p>
+          <input 
+            type="text" 
+            class="riddle-input" 
+            id="riddle-input" 
+            placeholder="Tu respuesta aquí"
+            autocomplete="off"
+          >
+          <br>
+          <button class="riddle-button" id="riddle-button">Enviar</button>
+          <p class="riddle-feedback" id="riddle-feedback"></p>
+          <p class="riddle-hint" id="riddle-hint"></p>
+        </div>
+        
+        <!-- Revelación del regalo -->
+        <div class="gift-reveal" id="gift-reveal">
+          <div class="gift-final-icon celebrate">🎮</div>
+          <h3 class="gift-title">¡Lo lograste!</h3>
+          <p class="gift-message">
+            Este es tu regalo de graduación. Algo para disfrutar en esta nueva etapa.
+          </p>
+          <p class="gift-subtitle">Tu código de GTA 6:</p>
+          <div class="gift-code" id="gift-code">GTA6-GRAD-2024</div>
+          <p class="gift-message">
+            Guárdalo bien. Y recuerda: así como en el juego, en la vida también eres el protagonista.
+          </p>
+          <p class="letter-signature">— Papá</p>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+  
+  <!-- ============================================
+       LIGHTBOX
+       ============================================ -->
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+    <button class="lightbox-nav lightbox-prev" aria-label="Previous image">‹</button>
+    <button class="lightbox-nav lightbox-next" aria-label="Next image">›</button>
+    
+    <div class="lightbox-content">
+      <img class="lightbox-image" src="" alt="">
+      <p class="lightbox-caption"></p>
+    </div>
+    
+    <p class="lightbox-counter"></p>
+  </div>
+  
+  <!-- ============================================
+       SCRIPTS
+       ============================================ -->
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/timeline.js"></script>
+  <script src="assets/js/gallery.js"></script>
+  <script src="assets/js/carousel.js"></script>
+  <script src="assets/js/gift.js"></script>
+  
+</body>
+</html>

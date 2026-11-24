@@ -1,0 +1,66 @@
+{
+  "title": "El Viaje",
+  "description": "Cada etapa fue un capítulo único en tu historia",
+  "milestones": [
+    {
+      "id": "hito-01",
+      "period": "2017 - 2018",
+      "label": "Los primeros años",
+      "title": "Todo comenzó aquí",
+      "description": "[TEXTO DE EJEMPLO - REEMPLAZAR] Estos fueron tus primeros pasos en el colegio. Recuerdos de cuando todo era nuevo y emocionante.",
+      "image": "assets/images/timeline/temprano.jpg",
+      "highlights": [
+        "[Recuerdo 1 - editar]",
+        "[Recuerdo 2 - editar]"
+      ]
+    },
+    {
+      "id": "hito-02",
+      "period": "2019 - 2020",
+      "label": "Creciendo",
+      "title": "Comenzabas a encontrar tu camino",
+      "description": "[TEXTO DE EJEMPLO - REEMPLAZAR] Los años donde empezaste a formar tu propia identidad y a descubrir lo que te gustaba.",
+      "image": "assets/images/timeline/crecimiento.jpg",
+      "highlights": [
+        "[Recuerdo 1 - editar]",
+        "[Recuerdo 2 - editar]"
+      ]
+    },
+    {
+      "id": "hito-03",
+      "period": "2021 - 2022",
+      "label": "Adolescencia",
+      "title": "Nuevos desafíos",
+      "description": "[TEXTO DE EJEMPLO - REEMPLAZAR] Una etapa de cambios, nuevos amigos y experiencias que te marcaron.",
+      "image": "assets/images/timeline/adolescencia.jpg",
+      "highlights": [
+        "[Recuerdo 1 - editar]",
+        "[Recuerdo 2 - editar]"
+      ]
+    },
+    {
+      "id": "hito-04",
+      "period": "2023",
+      "label": "Séptimo básico",
+      "title": "El penúltimo año",
+      "description": "[TEXTO DE EJEMPLO - REEMPLAZAR] Un año de preparación para lo que vendría. Momentos importantes que atesoras.",
+      "image": "assets/images/timeline/septimo.jpg",
+      "highlights": [
+        "[Recuerdo 1 - editar]",
+        "[Recuerdo 2 - editar]"
+      ]
+    },
+    {
+      "id": "hito-05",
+      "period": "2024",
+      "label": "Octavo básico",
+      "title": "El último año",
+      "description": "[TEXTO DE EJEMPLO - REEMPLAZAR] Tu año de graduación. El cierre de un ciclo increíble lleno de logros y momentos inolvidables.",
+      "image": "assets/images/timeline/octavo.jpg",
+      "highlights": [
+        "[Recuerdo 1 - editar]",
+        "[Recuerdo 2 - editar]"
+      ]
+    }
+  ]
+}

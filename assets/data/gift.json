@@ -1,0 +1,27 @@
+{
+  "title": "Un último regalo...",
+  "subtitle": "Has llegado hasta aquí. Ahora demuestra que estás listo para lo que viene.",
+  "code": "GTA6-GRAD-2024",
+  "message": "Este es tu regalo de graduación. Algo para disfrutar en esta nueva etapa.",
+  "finalMessage": "Guárdalo bien. Y recuerda: así como en el juego, en la vida también eres el protagonista.",
+  "riddles": [
+    {
+      "id": 1,
+      "question": "Soy el protagonista de tu historia escolar. Fui 8 años contigo y ahora termino. ¿Qué soy?",
+      "answer": ["colegio", "el colegio", "school", "mi colegio"],
+      "hint": "Piensa en el lugar donde pasaste 8 años..."
+    },
+    {
+      "id": 2,
+      "question": "Tengo ciudades pero no casas, tengo montañas pero no árboles, tengo agua pero no peces. ¿Qué soy?",
+      "answer": ["mapa", "un mapa", "maps"],
+      "hint": "En los videojuegos me usas para navegar..."
+    },
+    {
+      "id": 3,
+      "question": "Cuanto más me compartes, más feliz te hago. Soy el sentimiento de lograr algo importante. ¿Qué soy?",
+      "answer": ["orgullo", "el orgullo", "pride"],
+      "hint": "Es lo que papá siente por ti hoy..."
+    }
+  ]
+}
