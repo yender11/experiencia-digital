@@ -3,14 +3,14 @@
    Inicialización y utilidades
    ============================================ */
 
-document.addEventListener('DOMContentLoaded', () => {
-  initSite();
-  initTimeline();
-  initGallery();
-  initLightbox();
+(async function init() {
+  await initSite();
+  await initTimeline();
+  await initGallery();
+  await initLetter();
   initScrollAnimations();
-  initLetter();
-});
+  initLightbox();
+})();
 
 /* ============================================
    CARGA DE DATOS

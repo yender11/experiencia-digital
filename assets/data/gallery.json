@@ -15,34 +15,34 @@
     {
       "id": "foto-001",
       "src": "assets/images/gallery/foto1.jpg",
-      "alt": "[DESCRIPCIÓN - editar]",
-      "category": "amigos",
-      "caption": "[TEXTO - editar]",
+      "alt": "",
+      "category": "",
+      "caption": "",
       "aspectRatio": "4:3"
     },
     {
       "id": "foto-002",
       "src": "assets/images/gallery/foto2.jpg",
-      "alt": "[DESCRIPCIÓN - editar]",
-      "category": "companeros",
-      "caption": "[TEXTO - editar]",
+      "alt": "",
+      "category": "",
+      "caption": "",
       "aspectRatio": "3:4"
     },
     {
       "id": "foto-003",
       "src": "assets/images/gallery/foto3.jpg",
-      "alt": "[DESCRIPCIÓN - editar]",
-      "category": "actividades",
-      "caption": "[TEXTO - editar]",
-      "aspectRatio": "16:9"
+      "alt": "",
+      "category": "",
+      "caption": "]",
+      "aspectRatio": "1:1"
     },
     {
       "id": "foto-004",
       "src": "assets/images/gallery/foto4.jpg",
-      "alt": "[DESCRIPCIÓN - editar]",
-      "category": "celebraciones",
-      "caption": "[TEXTO - editar]",
-      "aspectRatio": "1:1"
+      "alt": "",
+      "category": "",
+      "caption": "",
+      "aspectRatio": "3:4"
     },
     {
       "id": "foto-005",

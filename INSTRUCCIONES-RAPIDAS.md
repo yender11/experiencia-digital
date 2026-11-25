@@ -20,7 +20,6 @@
 | `hero/` | 1 foto de portada | 1920x1080px |
 | `timeline/` | 5 fotos (una por hito) | 800x600px |
 | `gallery/` | 12 fotos variadas | Cualquiera |
-| `carousel/` | **8 fotos para el carrusel** | 1000x600px |
 | `moments/` | 3 fotos destacadas | 1600x900px |
 | `present/` | 1 foto de graduación | 1920x1080px |
 | `letter/` | 1 foto papá e hijo | 800x600px |
@@ -38,9 +37,6 @@ timeline/octavo.jpg
 gallery/foto1.jpg
 gallery/foto2.jpg
 ... (hasta foto12)
-carousel/foto1.jpg
-carousel/foto2.jpg
-... (hasta foto8)
 moments/momento1.jpg
 moments/momento2.jpg
 moments/momento3.jpg

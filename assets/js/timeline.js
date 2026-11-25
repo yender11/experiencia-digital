@@ -44,6 +44,7 @@ function createTimelineItem(milestone, index) {
   item.dataset.index = index;
   
   const isOdd = index % 2 === 0;
+  const imageSrc = milestone.image || 'assets/images/placeholder.svg';
   
   item.innerHTML = `
     <div class="timeline-dot"></div>
@@ -53,13 +54,13 @@ function createTimelineItem(milestone, index) {
       <h3 class="timeline-title">${milestone.title || ''}</h3>
       <p class="timeline-description">${milestone.description || ''}</p>
       ${renderHighlights(milestone.highlights, isOdd)}
-      <div class="timeline-image-container" style="width: 100%; max-width: 320px; aspect-ratio: 4/3;">
+      <div class="timeline-image-wrapper" style="width: 100%; max-width: 320px; aspect-ratio: 3/4; overflow: hidden; border-radius: 4px; background: #1a1f2e;">
         <img 
-          src="${milestone.image || 'assets/images/placeholder.svg'}" 
+          src="${imageSrc}" 
           alt="${milestone.title || 'Timeline photograph'}"
           class="timeline-image"
           loading="lazy"
-          onerror="this.src='assets/images/placeholder.svg';"
+          onerror="this.onerror=null; this.src='assets/images/placeholder.svg';"
         >
       </div>
     </div>

@@ -33,7 +33,6 @@ graduacion/
 │       ├── hero/           # Fotografía de portada
 │       ├── timeline/       # Fotografías por hito
 │       ├── gallery/        # Galería de recuerdos
-│       ├── carousel/       # **Fotos del carrusel (8 fotos)**
 │       ├── moments/        # Momentos especiales
 │       ├── present/        # Fotografía de graduación
 │       ├── letter/         # Fotografía papá e hijo
@@ -52,7 +51,6 @@ graduacion/
   - Portada (hero): 1920x1080px o superior
   - Timeline: 800x600px (proporción 4:3)
   - Galería: Variadas (cuadradas, verticales, panorámicas)
-  - **Carrusel: 1000x600px mínimo (proporción 16:9 o similar)**
   - Graduación: 1920x1080px o superior
   - Carta: 800x600px (proporción 4:3)
   - Cierre: 1920x1080px o superior
@@ -66,7 +64,6 @@ Copia tus imágenes en las carpetas correspondientes:
 | `assets/images/hero/` | Fotografía de portada | `portada.jpg` |
 | `assets/images/timeline/` | Fotos por etapa | `temprano.jpg`, `crecimiento.jpg`, etc. |
 | `assets/images/gallery/` | Galería de recuerdos | `foto1.jpg`, `foto2.jpg`, etc. |
-| `assets/images/carousel/` | **Fotos carrusel (8 fotos)** | `foto1.jpg` ... `foto8.jpg` |
 | `assets/images/moments/` | Momentos destacados | `momento1.jpg`, `momento2.jpg`, etc. |
 | `assets/images/present/` | Foto de graduación | `graduacion.jpg` |
 | `assets/images/letter/` | Foto papá e hijo | `papa-hijo.jpg` |
@@ -211,39 +208,6 @@ Cada hito representa una etapa (no necesariamente un año escolar):
 - El código se puede cambiar en el campo `code`
 
 **Respuestas múltiples:** Puedes poner varias respuestas válidas en el array `answer`. El sistema verifica si la respuesta del usuario coincide con alguna de ellas.
-
----
-
-## 🎠 CÓMO EDITAR EL CARRUSEL
-
-El carrusel tiene **8 fotos** fijas en el HTML. Para editarlas:
-
-### En `index.html`:
-
-Busca la sección `<!-- SECCIÓN 03.5 — CARRUSEL -->` y edita cada slide:
-
-```html
-<!-- Slide 1 -->
-<div class="carousel-slide">
-  <img 
-    class="carousel-image" 
-    src="assets/images/carousel/foto1.jpg" 
-    alt="Descripción de la foto"
-  >
-  <div class="carousel-overlay">
-    <p class="carousel-year">2017</p>
-    <p class="carousel-caption">[TEXTO - editar] Tu texto aquí</p>
-  </div>
-</div>
-```
-
-**Campos editables por foto:**
-- `src`: Ruta de la imagen
-- `alt`: Descripción para accesibilidad
-- `carousel-year`: Año o período
-- `carousel-caption`: Texto descriptivo
-
-**Recomendación:** Usa las mismas 8 primeras fotos de la galería (`gallery/foto1.jpg` ... `foto8.jpg`) o crea una carpeta separada `carousel/` con fotos específicas para el carrusel.
 
 ---
 
