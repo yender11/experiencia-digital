@@ -65,8 +65,16 @@ async function initSite() {
     }
     
     if (heroBg && siteData.hero?.image) {
+      // Actualizar imagen desktop (src del img)
       heroBg.src = siteData.hero.image;
       heroBg.alt = 'Photograph of the journey';
+      
+      // Actualizar imagen móvil (srcset del source)
+      const heroSourceMobile = document.querySelector('.hero picture source');
+      if (heroSourceMobile && siteData.hero?.mobileImage) {
+        heroSourceMobile.srcset = siteData.hero.mobileImage;
+      }
+      
       heroBg.onerror = () => {
         if (siteData.hero?.fallbackImage) {
           heroBg.src = siteData.hero.fallbackImage;

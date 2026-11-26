@@ -38,26 +38,30 @@
        SECCIÓN 01 — HERO / EL COMIENZO
        ============================================ -->
   <header class="hero" role="banner">
-    <!-- REEMPLAZAR: Fotografía de portada (hero/portada.jpg) -->
-    <img 
-      class="hero-bg" 
-      src="assets/images/hero/portada.jpg" 
-      alt="Photograph of the journey"
-      onerror="this.src='assets/images/placeholder.svg'; this.classList.add('placeholder-active');"
-    >
+    <!-- REEMPLAZAR: Fotografía de portada -->
+    <!-- portada2.jpg para móvil, portada.jpg para desktop -->
+    <picture>
+      <source 
+        media="(max-width: 767px)" 
+        srcset="assets/images/hero/portada2.jpg"
+      >
+      <img 
+        class="hero-bg" 
+        src="assets/images/hero/portada.jpg" 
+        alt="Photograph of the journey"
+        onerror="this.src='assets/images/placeholder.svg'; this.classList.add('placeholder-active');"
+      >
+    </picture>
     <div class="hero-overlay"></div>
     
     <div class="hero-content">
-      <h1 class="hero-title">No fue solamente ir al colegio...</h1>
-      <h2 class="hero-highlight">Fue crecer.</h2>
-      <p class="hero-subtitle">Una historia de años, amistades, aprendizajes y momentos que quedarán para siempre</p>
-      <p class="hero-signature">Un regalo de papá</p>
+      <h1 class="hero-title"></h1>
+      <h2 class="hero-highlight"></h2>
+      <p class="hero-subtitle"></p>
+      <p class="hero-signature"></p>
     </div>
     
-    <div class="hero-scroll">
-      <div class="hero-scroll-icon"></div>
-      <span class="hero-scroll-text">Desliza</span>
-    </div>
+    
   </header>
   
   <main role="main">
@@ -69,7 +73,7 @@
       <div class="timeline-header">
         <p class="section-subtitle">Recorrido</p>
         <h2 class="section-title" id="timeline-title">El Viaje</h2>
-        <p class="section-description">Cada etapa fue un capítulo único en tu historia</p>
+        <p class="section-description"> </p>
       </div>
       
       <div class="timeline-container">

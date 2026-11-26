@@ -5,12 +5,13 @@
     "author": "Papá"
   },
   "hero": {
-    "title": "No fue solamente ir al colegio...",
-    "highlight": "Fue crecer.",
-    "subtitle": "Una historia de años, amistades, aprendizajes y momentos que quedarán para siempre",
+    "title": "",
+    "highlight": "",
+    "subtitle": "",
     "image": "assets/images/hero/portada.jpg",
+    "mobileImage": "assets/images/hero/portada2.jpg",
     "fallbackImage": "assets/images/placeholder.svg",
-    "signature": "Un regalo de papá"
+    "signature": ""
   },
   "present": {
     "title": "Lo lograste.",

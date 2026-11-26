@@ -4,9 +4,9 @@
   "milestones": [
     {
       "id": "hito-01",
-      "period": "",
-      "label": "",
-      "title": "2019",
+      "period": "2019",
+      "label": "1ro. Basico",
+      "title": "",
       "description": "",
       "image": "assets/images/timeline/temprano.jpg",
       "highlights": [
@@ -15,9 +15,9 @@
     },
     {
       "id": "hito-02",
-      "period": "",
-      "label": "",
-      "title": "2020",
+      "period": "2020",
+      "label": "2do. Basico",
+      "title": "",
       "description": "",
       "image": "assets/images/timeline/crecimiento.jpg",
       "highlights": [
@@ -25,9 +25,9 @@
       ]
     },
     {
-      "id": "",
+      "id": "hito-03",
       "period": "2021",
-      "label": "",
+      "label": "3ro. Basico",
       "title": "",
       "description": "",
       "image": "assets/images/timeline/crecimiento2.jpg",
@@ -37,7 +37,7 @@
     {
       "id": "hito-04",
       "period": "2022",
-      "label": "",
+      "label": "4to. Basico",
       "title": "",
       "description": "",
       "image": "assets/images/timeline/crecimiento3.jpg",
@@ -46,14 +46,41 @@
     },
     {
       "id": "hito-05",
+      "period": "2023",
+      "label": "5to. Basico",
+      "title": "",
+      "description": "",
+      "image": "assets/images/timeline/crecimiento4.jpg",
+      "highlights": []
+    },
+  {
+      "id": "hito-06",
       "period": "2024",
-      "label": "Octavo básico",
-      "title": "El último año",
-      "description": "[TEXTO DE EJEMPLO - REEMPLAZAR] Tu año de graduación. El cierre de un ciclo increíble lleno de logros y momentos inolvidables.",
-      "image": "assets/images/timeline/octavo.jpg",
+      "label": "6to. Basico",
+      "title": "",
+      "description": "",
+      "image": "assets/images/timeline/crecimiento5.jpg",
       "highlights": [
-        "[Recuerdo 1 - editar]",
-        "[Recuerdo 2 - editar]"
+      ]
+    },
+    {
+      "id": "hito-07",
+      "period": "2025",
+      "label": "7mo. Basico",
+      "title": "",
+      "description": "",
+      "image": "assets/images/timeline/crecimiento6.jpg",
+      "highlights": [
+      ]
+    },
+    {
+      "id": "hito-08",
+      "period": "2026",
+      "label": "8vo. Basico",
+      "title": "",
+      "description": "",
+      "image": "assets/images/timeline/crecimiento7.jpg",
+      "highlights": [
       ]
     }
   ]
